@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\NailsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', HomeController::class)->name('home');
+
+Route::resource('nails', NailsController::class);
+
+Route::resource('contacto', ContactoController::class);
