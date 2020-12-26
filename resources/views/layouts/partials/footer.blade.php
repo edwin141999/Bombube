@@ -1,12 +1,26 @@
 <footer>
     <div class="container-fluid bg-dark text-white">
         <div class="row">
-            <div class="col-12 col-xl-6 mt-3">
+            <div class="col-12 col-xl-6 mt-3 text-center">
                 <h3 class="text-center">Redes Sociales</h3>
-                <a href="#">Facebook</a>
-                <a href="#">Whatsapp</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
+                <div class="row">
+                    <div class="col-12 col-xl-6">
+                        <span style="font-size: 3em;"><i class="fab fa-facebook"></i></span>
+                        <a href="#" style="font-size: 20px">Facebook</a>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <span style="font-size: 3em;"><i class="fab fa-whatsapp"></i></span>
+                        <a href="#" style="font-size: 20px">Whatsapp</a>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <span style="font-size: 3em;"><i class="fab fa-twitter"></i></span>
+                        <a href="#" style="font-size: 20px">Twitter</a>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <span style="font-size: 3em;"><i class="fab fa-instagram"></i></span>
+                        <a href="#" style="font-size: 20px">Instagram</a>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-xl-6 mb-3 mt-3">
                 <h3 class="text-center">Contactanos</h3>

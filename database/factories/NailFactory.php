@@ -5,14 +5,14 @@ namespace Database\Factories;
 use App\Models\Nail;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class NailsFactory extends Factory
+class NailFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = Model::class;
+    protected $model = Nail::class;
 
     /**
      * Define the model's default state.
@@ -22,7 +22,9 @@ class NailsFactory extends Factory
     public function definition()
     {
         return [
-            //'url' =>$this->
+            'url' =>$this->faker->randomElement(['gaseoso.png','solido.png','liquido.png']),
+            'tittle'=>$this->faker->randomElement(['Nails','Eyelash','Gelish']),
+            'description'=>$this->faker->paragraph()
         ];
     }
 }
